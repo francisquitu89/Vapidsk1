@@ -51,7 +51,43 @@
       }
       #vapiStatusMessage{
         color: red;
-
+      }
+      }
+      #vapiTyping{
+        width: 433px;
+        height: 95px;
+        background: #031534;
+        border: none;
+        border-radius: 10px;
+        color: #d2d2d2;
+        padding: 20px;
+      }
+      #chat{
+        z-index: 99999;
+        position: relative;
+        width: 300px; 
+        height: 400px; 
+        overflow-y: scroll; 
+        border: 1px solid #ccc; 
+        padding: 10px;
+        margin-top: 20px;
+        overflow: auto;
+      }
+      #chat .message {
+        padding: 5px;
+        margin-bottom: 8px;
+        border-radius: 5px;
+      }
+      #chat .user {
+        background-color: #0f8912;
+        text-align: right;
+        margin-left: 30px;
+      }
+      #chat .assistant {
+        background-color: #4b9cd3;
+        text-align: left;
+        margin-right: 30px;
+      }
     </style>
   </head>
   <body>
